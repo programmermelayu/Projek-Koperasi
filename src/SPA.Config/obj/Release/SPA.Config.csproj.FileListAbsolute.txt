@@ -1,0 +1,5 @@
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA\bin\Release\SPA.Config.dll
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA\bin\Release\SPA.Config.pdb
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Config\obj\Release\SPA.Config.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Config\obj\Release\SPA.Config.dll
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Config\obj\Release\SPA.Config.pdb

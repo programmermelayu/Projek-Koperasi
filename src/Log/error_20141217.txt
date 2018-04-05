@@ -1,0 +1,10 @@
+
+[20141217 22:14:13] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7494. The method or operation is not implemented.
+[20141217 22:14:47] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7494. The method or operation is not implemented.
+[20141217 22:15:19] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7494. The method or operation is not implemented.
+[20141217 22:30:03] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7494. The method or operation is not implemented.    at SPA.Entity.AccountReader.set_ErrorMessage(String value) in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Entity\AccountReader.cs:line 23
+   at SPA.Entity.AccountReader.ReadSingle(FilterElement filter) in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Entity\AccountReader.cs:line 63
+   at SPA.Entity.Account.GetID(String code) in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Entity\Account.cs:line 64
+   at SPA.Entity.PaymentExtractor.Extract() in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Entity\PaymentExtractor.cs:line 124
+[20141217 23:27:11] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7494. Object reference not set to an instance of an object.    at SPA.Cache.AccountCache.GetAccountID(String code) in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\AccountCache.cs:line 35
+   at SPA.Entity.PaymentExtractor.Extract() in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Entity\PaymentExtractor.cs:line 125

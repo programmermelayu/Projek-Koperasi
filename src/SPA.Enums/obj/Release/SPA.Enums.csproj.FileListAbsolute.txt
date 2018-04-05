@@ -1,0 +1,5 @@
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA\bin\Release\SPA.Enums.dll
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA\bin\Release\SPA.Enums.pdb
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Enums\obj\Release\SPA.Enums.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Enums\obj\Release\SPA.Enums.dll
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Enums\obj\Release\SPA.Enums.pdb

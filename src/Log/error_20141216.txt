@@ -1,0 +1,33 @@
+
+[20141216 22:51:12] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7494. The method or operation is not implemented.
+[20141216 23:00:58] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7494. The method or operation is not implemented.
+[20141216 23:01:20] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7501. The method or operation is not implemented.
+[20141216 23:02:38] Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[20141216 23:05:35] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7508. The method or operation is not implemented.
+[20141216 23:05:59] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7509. The method or operation is not implemented.
+[20141216 23:06:28] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7508. The method or operation is not implemented.
+[20141216 23:06:50] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7513. The method or operation is not implemented.
+[20141216 23:08:06] Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[20141216 23:08:06] Error:Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached. ** SQL:INSERT INTO Members(Name,Code,NewIC,Address1,syscreated,sysmodified,syscreator,sysmodifier)VALUES('MUHAMMAD AFIFI BIN ABDULLAH','','790620025671','','2014/12/16','2014/12/16',1,1)
+[20141216 23:08:53] Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[20141216 23:08:53] Error:Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached. ** SQL:INSERT INTO Members(Name,Code,NewIC,Address1,syscreated,sysmodified,syscreator,sysmodifier)VALUES('NOOR SITI FATIMAH BT MOHAMAD','','791011025216','','2014/12/16','2014/12/16',1,1)
+[20141216 23:11:28] Incorrect syntax near 'ADIAH'.
+Unclosed quotation mark after the character string ',1,1)'.
+[20141216 23:11:28] Error:Incorrect syntax near 'ADIAH'.
+Unclosed quotation mark after the character string ',1,1)'. ** SQL:INSERT INTO Members(Name,Code,NewIC,Address1,syscreated,sysmodified,syscreator,sysmodifier)VALUES('SA'ADIAH BT OMAR','','620706075192','','2014/12/16','2014/12/16',1,1)
+[20141216 23:12:31] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7569. The method or operation is not implemented.
+[20141216 23:12:55] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7513. The method or operation is not implemented.
+[20141216 23:17:49] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7569. The method or operation is not implemented.
+[20141216 23:18:16] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7570. The method or operation is not implemented.
+[20141216 23:20:12] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7569. The method or operation is not implemented.
+[20141216 23:21:57] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7579. The method or operation is not implemented.
+[20141216 23:34:39] Incorrect syntax near 'ADIAH'.
+Unclosed quotation mark after the character string ',1,1)'.
+[20141216 23:34:39] Error:Incorrect syntax near 'ADIAH'.
+Unclosed quotation mark after the character string ',1,1)'. ** SQL:INSERT INTO Members(Name,Code,NewIC,Address1,syscreated,sysmodified,syscreator,sysmodifier)VALUES('SA'ADIAH BT OMAR','','620706075192','','2014/12/16','2014/12/16',1,1)
+[20141216 23:35:50] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7569. The method or operation is not implemented.
+[20141216 23:36:15] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7570. The method or operation is not implemented.
+[20141216 23:37:02] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7579. The method or operation is not implemented.
+[20141216 23:39:35] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7579. The method or operation is not implemented.
+[20141216 23:40:29] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7639. The method or operation is not implemented.
+[20141216 23:41:21] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7570. The method or operation is not implemented.

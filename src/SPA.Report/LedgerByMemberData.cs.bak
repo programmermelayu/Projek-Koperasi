@@ -1,0 +1,138 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using SPA.Data;
+using System.Data.SqlClient;
+using SPA.Entity;
+using SPA.Core;
+
+namespace SPA.Reporting
+{
+    public class LedgerByMemberData : IDataGenerator
+    {
+        public IReportFilter Filter { get; set; }
+        public static List<LedgerByMemberDataField> Records { get; set;}
+        public static ReportHeaderElement ReportHeader { get; set; }
+
+         public void GenerateReportDetailData(SqlDataReader dr)
+        {
+            Records = new List<LedgerByMemberDataField>();
+            if (dr.HasRecord())
+            {
+                while (dr.Read())
+                {
+                    LedgerByMemberDataField record = new LedgerByMemberDataField();
+                    record.NomborLarian = dr.GetString(dr.GetOrdinal("NomborLarian"));
+                    int month = dr.GetValueInt("PaymentMonth");
+                    int year = dr.GetValueInt("PaymentYear");
+                    record.BulanPotongan = string.Format("{0:MMM-yyyy}", new DateTime(year, month, 1));
+                    record.FiMasuk = dr.GetValue(dr.GetOrdinal("FiMasuk")).ToString();
+                    record.Saham = dr.GetValue(dr.GetOrdinal("Saham")).ToString();
+                    record.YuranBulanan = dr.GetValue(dr.GetOrdinal("YuranBulanan")).ToString();
+                    record.TabungDerma = dr.GetValue(dr.GetOrdinal("TabungDerma")).ToString();
+                    record.Jumlah = record.FiMasuk.ToDouble() + record.Saham.ToDouble() + record.YuranBulanan.ToDouble() + record.TabungDerma.ToDouble();
+                    record.GeneratedOn = String.Format("{0:yyyy/MM/dd HH:mm:ss} ", DateTime.Now);
+                    Records.Add(record);                    
+                }
+            }
+        }
+
+         public void GenerateReportHeaderData(SqlDataReader dr)
+        {
+            ReportHeader = new ReportHeaderElement();
+            if (dr.HasRecord())
+            {
+                while (dr.Read())
+                {
+                    ReportHeader.Name = dr.GetString(dr.GetOrdinal("Name"));
+                    ReportHeader.NomborKP = dr.GetString(dr.GetOrdinal("NewIC"));
+                    ReportHeader.Address = dr.GetString(dr.GetOrdinal("PermanentAddress"));
+                    ReportHeader.MembershipNo = dr.GetString(dr.GetOrdinal("Code"));
+                }
+            }
+        }
+
+        public string GetQuery()
+        {
+            SelectBuilder sb = new SelectBuilder();
+            sb.Fields.Add("p.NomborLarian");
+            sb.Fields.Add("p.PaymentMonth");
+            sb.Fields.Add("p.PaymentYear");
+            sb.Fields.Add("p1.Amount AS YuranBulanan");
+            sb.Fields.Add("p2.Amount AS TabungDerma");
+            sb.Fields.Add("p3.Amount AS Saham");
+            sb.Fields.Add("p4.Amount AS FiMasuk");
+
+            sb.Table = "Payments p";
+            sb.Table += string.Format(" LEFT JOIN Payments p1 ON p.NomborLarian = p1.NomborLarian and p1.AccountID={0}", (int)SPA.Enums.PaymentEnum.AccountID.YuranBulanan) ;
+            sb.Table += string.Format(" LEFT JOIN Payments p2 ON p.NomborLarian = p2.NomborLarian and p2.AccountID={0}", (int)SPA.Enums.PaymentEnum.AccountID.KebajikanDermasiswa);
+            sb.Table += string.Format(" LEFT JOIN Payments p3 ON p.NomborLarian = p3.NomborLarian and p3.AccountID={0}", (int)SPA.Enums.PaymentEnum.AccountID.Saham);
+            sb.Table += string.Format(" LEFT JOIN Payments p4 ON p.NomborLarian = p4.NomborLarian and p4.AccountID={0}", (int)SPA.Enums.PaymentEnum.AccountID.FiMasuk);
+        
+            ReportFilter reportFilter = (ReportFilter)this.Filter;
+            if (reportFilter != null)
+            {
+                if (reportFilter.MemberID > 0)
+                {
+                    sb.AddWhereField("p.MemberID", reportFilter.MemberID, SPA.Enums.Data.DataType.Number);                    
+                }
+                if (reportFilter.PeriodFrom > 0 && reportFilter.PeriodTo > 0)
+                {
+                    sb.AddWhereField("(p.YearMonth", reportFilter.PeriodFrom, reportFilter.PeriodTo);
+                }
+            }
+
+            sb.GroupBy = "p.NomborLarian, p.PaymentMonth, p.PaymentYear, p1.amount, p2.Amount, p3.Amount, p4.amount, p.YearMonth";
+            sb.OrderBy = "p.PaymentYear, p.PaymentMonth";
+
+            return sb.Sql;
+        }
+
+        public string GetQueryHeader()
+        {
+            var sb = new SelectBuilder();
+            sb.Table = "Members";
+            sb.Fields.Add("Name");
+            sb.Fields.Add("NewIC");
+            sb.Fields.Add("PermanentAddress");
+            sb.Fields.Add("Code");
+            sb.Fields.Add("MembershipDate");
+            ReportFilter reportFilter = (ReportFilter)this.Filter;
+            sb.AddWhereField("ID", reportFilter.MemberID, SPA.Enums.Data.DataType.Number);
+            return sb.Sql;                 
+        }
+        public class ReportFilter : IReportFilter 
+        {
+            public int MemberID { get; set; }
+            public int PeriodFrom { get; set; }
+            public int PeriodTo { get; set; }
+        }
+
+        public class ReportHeaderElement : IReportHeader 
+        {
+            public string Name { get; set; }
+            public string Address { get; set; }
+            public string NomborKP { get; set; }
+            public string MembershipDate { get; set; }
+            public string MembershipNo { get; set; }
+        }
+
+    }
+
+    public class LedgerByMemberDataField
+    {
+       public string NomborLarian { get; set; }
+        public string BulanPotongan { get; set; }
+        public int PaymentMonth { get; set; }
+        public int PaymentYear { get; set; }
+        public string  FiMasuk { get; set; }
+        public string  Saham { get; set; }
+        public string YuranBulanan { get; set; }
+        public string TabungDerma { get; set; }
+        public double Jumlah { get; set; }
+        public string GeneratedOn { get; set; }
+    }
+}
+

@@ -1,0 +1,9 @@
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Control\bin\Release\SPA.Control.dll
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Control\bin\Release\SPA.Control.pdb
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Control\obj\Release\SPA.Control.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Control\obj\Release\SPA.Control.SPAForm.resources
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Control\obj\Release\SPA.Control.csproj.GenerateResource.Cache
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Control\obj\Release\SPA.Control.dll
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Control\obj\Release\SPA.Control.pdb
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\bin\SPA.Control.dll
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\bin\SPA.Control.pdb

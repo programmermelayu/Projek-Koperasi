@@ -1,0 +1,17 @@
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Report\obj\Release\SPA.Reporting.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Report\obj\Release\SPA.Reporting.LedgerByMemberReportNew.resources
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Report\obj\Release\SPA.Reporting.LoanLedgerByMemberReport.resources
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Report\obj\Release\SPA.Reporting.LedgerByMemberReport.resources
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Report\obj\Release\SPA.Reporting.MembershipLetterReport.resources
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Report\obj\Release\SPA.Reporting.Properties.Resources.resources
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Report\obj\Release\SPA.Reporting.LedgerByMemberReportNew.ms-MY.resources
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Report\obj\Release\SPA.Reporting.LoanLedgerByMemberReport.ms-MY.resources
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Report\obj\Release\SPA.Reporting.LedgerByMemberReport.ms-MY.resources
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Report\obj\Release\SPA.Reporting.csproj.GenerateResource.Cache
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\bin\SPA.Reporting.dll.config
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\bin\SPA.Reporting.dll
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\bin\SPA.Reporting.pdb
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\bin\ms-MY\SPA.Reporting.resources.dll
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Report\obj\Release\ms-MY\SPA.Reporting.resources.dll
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Report\obj\Release\SPA.Reporting.dll
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Report\obj\Release\SPA.Reporting.pdb

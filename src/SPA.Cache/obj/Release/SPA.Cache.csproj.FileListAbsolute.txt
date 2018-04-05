@@ -1,0 +1,17 @@
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\bin\Release\SPA.Cache.dll
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\bin\Release\SPA.Cache.pdb
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\bin\Release\SPA.Config.dll
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\bin\Release\SPA.Core.dll
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\bin\Release\SPA.Entity.dll
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\bin\Release\SPA.Enums.dll
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\bin\Release\SPA.Data.dll
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\bin\Release\SPA.Config.pdb
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\bin\Release\SPA.Core.pdb
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\bin\Release\SPA.Entity.pdb
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\bin\Release\SPA.Enums.pdb
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\bin\Release\SPA.Data.pdb
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\obj\Release\SPA.Cache.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\obj\Release\SPA.Cache.dll
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\obj\Release\SPA.Cache.pdb
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\bin\SPA.Cache.dll
+C:\Users\Acer\Dropbox\IT Project\SPAPrototype\SPA\bin\SPA.Cache.pdb

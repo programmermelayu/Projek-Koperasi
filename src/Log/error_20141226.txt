@@ -1,0 +1,29 @@
+
+[20141226 17:36:39] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7156. Value cannot be null.
+Parameter name: source    at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at SPA.Cache.AccountCache.GetAccountID(String code) in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\AccountCache.cs:line 35
+   at SPA.Entity.Client.PaymentExtractor.Extract() in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Entity.Client\PaymentExtractor.cs:line 126
+[20141226 17:36:44] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7494. Value cannot be null.
+Parameter name: source    at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at SPA.Cache.AccountCache.GetAccountID(String code) in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\AccountCache.cs:line 35
+   at SPA.Entity.Client.PaymentExtractor.Extract() in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Entity.Client\PaymentExtractor.cs:line 126
+[20141226 17:36:57] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7508. Value cannot be null.
+Parameter name: source    at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at SPA.Cache.AccountCache.GetAccountID(String code) in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\AccountCache.cs:line 35
+   at SPA.Entity.Client.PaymentExtractor.Extract() in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Entity.Client\PaymentExtractor.cs:line 126
+[20141226 17:37:37] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7234. Value cannot be null.
+Parameter name: source    at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at SPA.Cache.AccountCache.GetAccountID(String code) in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\AccountCache.cs:line 35
+   at SPA.Entity.Client.PaymentExtractor.Extract() in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Entity.Client\PaymentExtractor.cs:line 126
+[20141226 17:37:42] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7502. Value cannot be null.
+Parameter name: source    at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at SPA.Cache.AccountCache.GetAccountID(String code) in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\AccountCache.cs:line 35
+   at SPA.Entity.Client.PaymentExtractor.Extract() in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Entity.Client\PaymentExtractor.cs:line 126
+[20141226 17:39:14] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7156. Value cannot be null.
+Parameter name: source    at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at SPA.Cache.AccountCache.GetAccountID(String code) in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\AccountCache.cs:line 35
+   at SPA.Entity.Client.PaymentExtractor.Extract() in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Entity.Client\PaymentExtractor.cs:line 126
+[20141226 17:40:47] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\C7494. Value cannot be null.
+Parameter name: source    at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at SPA.Cache.AccountCache.GetAccountID(String code) in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Cache\AccountCache.cs:line 35
+   at SPA.Entity.Client.PaymentExtractor.Extract() in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Entity.Client\PaymentExtractor.cs:line 126

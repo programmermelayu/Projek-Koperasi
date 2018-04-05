@@ -1,0 +1,50 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using SPA.Reporting;
+using SPA.Entity;
+using Telerik.Reporting;
+using SPA.Cache;
+using SPA.Core;
+
+namespace SPA
+{
+    public partial class LedgerByMemberViewer : Form
+    {
+        public LedgerByMemberViewer()
+        {
+            InitializeComponent();
+        }
+
+        private void Report_Load(object sender, EventArgs e)
+        {
+            dtFrom.Value = DateTime.Today.AddMonths(-6);
+            dtTo.Value = DateTime.Today.AddMonths(6);
+        }
+
+
+        private IReportFilter GetFilter()
+        {
+            LedgerByMemberData.ReportFilter reportFilter = new LedgerByMemberData.ReportFilter();
+            reportFilter.MemberID = MemberCache.GetMemberID(txtSearchCode.Text.Trim());
+            reportFilter.PeriodFrom = string.Format("{0:yyyyMM}", dtFrom.Value).ToInt();
+            reportFilter.PeriodTo = string.Format("{0:yyyyMM}", dtTo.Value).ToInt();
+
+            return reportFilter;
+        }
+
+        private void btnShow_Click(object sender, EventArgs e)
+        {
+            ReportManager manager = new ReportManager(this.reportViewer1);
+            manager.CustomFilter = GetFilter();
+            manager.ProcessReport(new LedgerByMemberReport());
+        }
+
+    }
+}

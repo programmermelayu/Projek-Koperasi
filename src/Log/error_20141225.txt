@@ -1,0 +1,26 @@
+
+[20141225 21:09:55] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\FileBodoh. Index and length must refer to a location within the string.
+Parameter name: length    at System.String.Substring(Int32 startIndex, Int32 length)
+   at SPA.Entity.Client.PaymentExtractor.Extract() in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Entity.Client\PaymentExtractor.cs:line 108
+[20141225 21:10:14] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\FileBodoh. Index and length must refer to a location within the string.
+Parameter name: length    at System.String.Substring(Int32 startIndex, Int32 length)
+   at SPA.Entity.Client.PaymentExtractor.Extract() in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Entity.Client\PaymentExtractor.cs:line 108
+[20141225 21:10:51] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\FileBodoh. Index and length must refer to a location within the string.
+Parameter name: length    at System.String.Substring(Int32 startIndex, Int32 length)
+   at SPA.Entity.Client.PaymentExtractor.Extract() in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Entity.Client\PaymentExtractor.cs:line 108
+[20141225 21:11:12] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\111FileBodoh. Index and length must refer to a location within the string.
+Parameter name: length    at System.String.Substring(Int32 startIndex, Int32 length)
+   at SPA.Entity.Client.PaymentExtractor.Extract() in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Entity.Client\PaymentExtractor.cs:line 108
+[20141225 21:12:23] Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+*** Trace: 
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at SPA.Data.DbInserter.Execute(String sql) in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Data\DbInserter.cs:line 21
+[20141225 21:12:23] Error: ** SQL:INSERT INTO Members(Name,Code,NewIC,Address1,syscreated,sysmodified,syscreator,sysmodifier)VALUES('JASNIZA BINTI MAT @  MOHAMED','','680930035624','','2014/12/25','2014/12/25',1,1)
+[20141225 21:14:34] Importing failed for C:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\Import Files\111FileBodoh. Index and length must refer to a location within the string.
+Parameter name: length    at System.String.Substring(Int32 startIndex, Int32 length)
+   at SPA.Entity.Client.PaymentExtractor.Extract() in c:\Users\helan_000\Dropbox\IT Project\SPAPrototype\SPA\SPA.Entity.Client\PaymentExtractor.cs:line 108
